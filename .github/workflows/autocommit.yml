@@ -7,7 +7,7 @@ on:
       - master
       
   schedule:
-  - cron: "30 2 * * *" # See https://crontab.guru/
+  - cron: "40 2 * * *" # See https://crontab.guru/
 
 jobs:
   auto_commit:
@@ -29,24 +29,24 @@ jobs:
           
       - name: Commit changes
         run: |
-          git config --local user.email "taphuc1@gmail.com"
-          git config --local user.name "andrew-taphuc"
+          git config --local user.email "gnuhq26@gmail.com"
+          git config --local user.name "Gnuhq26Gnuhq26"
           git add -A
           
-          # arr[0]="andrew-taphuc: make it green"
-          # arr[1]="andrew-taphuc: make it green"
-          # arr[2]="andrew-taphuc: make it green"
-          # arr[3]="andrew-taphuc: make it green"
-          # arr[4]="andrew-taphuc: make it green"
-          # arr[5]="andrew-taphuc: make it green"
-          # arr[6]="andrew-taphuc: make it green"
-          # arr[7]="andrew-taphuc: make it green"
-          # arr[8]="andrew-taphuc: make it green"
-          # arr[9]="andrew-taphuc: make it green"
+          # arr[0]="Gnuhq26: make it green"
+          # arr[1]="Gnuhq26: make it green"
+          # arr[2]="Gnuhq26: make it green"
+          # arr[3]="Gnuhq26: make it green"
+          # arr[4]="Gnuhq26: make it green"
+          # arr[5]="Gnuhq26: make it green"
+          # arr[6]="Gnuhq26: make it green"
+          # arr[7]="Gnuhq26: make it green"
+          # arr[8]="Gnuhq26: make it green"
+          # arr[9]="Gnuhq26: make it green"
           
           # rand=$[$RANDOM % ${#arr[@]}]
           
-          git commit -m "andrew-taphuc: make it green"
+          git commit -m "Gnuhq26: make it green"
           
       - name: GitHub Push
         uses: ad-m/github-push-action@v0.6.0

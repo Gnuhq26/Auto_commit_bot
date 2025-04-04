@@ -54,10 +54,10 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config --local user.email "taphuc1@gmail.com"
-          git config --local user.name "andrew-taphuc"
+          git config --local user.email "gnuhq26@gmail.com"
+          git config --local user.name "Gnuhq26"
           git add -A
-          git commit -m "andrew-taphuc: make it green"
+          git commit -m "Gnuhq26: make it green"
           
       - name: GitHub Push
         uses: ad-m/github-push-action@v0.6.0
