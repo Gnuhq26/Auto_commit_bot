@@ -30,7 +30,7 @@ jobs:
       - name: Commit changes
         run: |
           git config --local user.email "gnuhq26@gmail.com"
-          git config --local user.name "Gnuhq26Gnuhq26"
+          git config --local user.name "Gnuhq26"
           git add -A
           
           # arr[0]="Gnuhq26: make it green"
